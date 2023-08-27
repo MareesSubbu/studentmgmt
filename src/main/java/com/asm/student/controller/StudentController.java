@@ -28,7 +28,6 @@ public class StudentController {
 
 	private final StudentService studentService;
 	
-	
 	@GetMapping(value = "/{studentId}")
 	public Optional<StudentEntity> getStudent(@PathVariable Integer studentId) {
 		return studentService.getStudent(studentId);

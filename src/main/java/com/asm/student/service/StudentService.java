@@ -21,7 +21,6 @@ public class StudentService {
 		
 
 	    StudentEntity studentEntity = new StudentEntity();
-	    
 	    studentEntity.setStuId(student.getStudentId());
 	    studentEntity.setStuName(student.getStudentName());
 	    studentEntity.setSubject("Maths");

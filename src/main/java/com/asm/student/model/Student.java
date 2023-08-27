@@ -10,8 +10,10 @@ import lombok.Setter;
 public class Student {
 
 	private int studentId;
+	
 	@NonNull
 	private String studentName;
+	
 	private Address studentAddress;
 	
 }

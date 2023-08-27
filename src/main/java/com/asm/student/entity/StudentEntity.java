@@ -21,4 +21,5 @@ public class StudentEntity {
     private String stuName;
     @Column(name = "subject")
     private String subject;
+    
 }
