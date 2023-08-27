@@ -11,7 +11,7 @@ public class Student {
 
 	private int studentId;
 	@NonNull
-	private int studentName;
+	private String studentName;
 	private Address studentAddress;
 	
 }
